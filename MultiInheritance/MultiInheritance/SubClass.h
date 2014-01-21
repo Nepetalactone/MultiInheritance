@@ -6,6 +6,6 @@ class SubClass : public DerivedClass1, public DerivedClass2
 public:
 	SubClass(void);
 	~SubClass(void);
-	virtual void sayHello();
+	void sayHello();
 };
 
